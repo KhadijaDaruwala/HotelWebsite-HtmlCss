@@ -249,6 +249,32 @@ p {
   border-radius: 50%;
 }
 
+/* Contact Form */
+
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form .form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form .form-group input, #contact-form .form-group textarea {
+  padding: 10px;
+  width: 100%;
+  border: 1px #ddd solid;
+}
+
+#contact-form .form-group input:focus, #contact-form .form-group textarea:focus {
+  outline: none;
+  border-color: #f7c08a;
+}
+
+#contact-form .form-group textarea {
+  height: 200px;
+}
+
 /* Footer */
 
 #main-footer {
