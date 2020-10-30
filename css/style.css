@@ -53,8 +53,12 @@
 }
 
 .bg-primary {
-  background: #333;
-  color: #f7c08a;
+  background: #f7c08a;
+  color: #333;
+}
+
+.clr{
+  clear: both;
 }
 
 /* Main Styling */
@@ -162,5 +166,26 @@ p {
 }
 
 #home-info .info-content p {
-  padding-bottom: 30px;
+  padding-bottom: 3 0px;
+}
+
+/* Features */
+
+.box{
+  float: left;
+  padding: 50px;
+  width: 33.3%;
+  text-align: center;
+}
+
+.box i {
+  margin-bottom: 10px;
+}
+
+/* Footer */
+#main-footer{
+  background: #444;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
 }
